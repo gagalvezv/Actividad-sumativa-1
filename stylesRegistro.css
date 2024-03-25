@@ -73,64 +73,68 @@ body {
     color: white;
 }
 
-.frame {
+
+/* CSS Formulario */
+
+.formulario-registro {
+    width: 450px;
+    background: rgb(247, 247, 247);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(80vh - 4em);
-    margin-top: 4em;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px;
 }
 
-.frame img {
-    position: relative;
-    width: 57%;
-    max-height: 75%;
+.formulario-registro h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
-h2 {
-    margin-top: -70px;
-    font-family: sans-serif;
+.form-box {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 7px;
+    border-radius: 3px;
+    border-style: hidden;
+}
+
+.formulario-registro p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.formulario-registro label {
+    display: inline-block;
     display: flex;
-    justify-content: center;
-    font-size: 30px;
-}
-.categorias {
-    display: flex;
-    justify-content: center
+    align-items: end;
+
 }
 
-.categorias-link {
-    line-height: 80px;
-    text-decoration: none;
-    color: black;
-    padding: 8px 120px;
-    opacity: 1;
-    border-bottom: solid rgb(189, 189, 189) 2px;
-}
-
-.categorias-list {
-    list-style: none;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.categoria1:hover, .categoria2:hover, .categoria3:hover {
-    opacity: 1;
-    border-bottom: solid rgb(0, 0, 0) 2px;
-}
-
-.img-categoria {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    list-style: none;
-}
-
-.img-tamaño {
-    display: block;
-    width: 280px;
-    height: 250px;
+.formulario-registro p {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: -1px;
 }
 
 
+.boton {
+    background: gray;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 17px;
+}
 
+.boton:hover {
+    background: rgb(151, 151, 151);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px;
+}
