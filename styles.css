@@ -133,4 +133,87 @@ h2 {
 }
 
 
+.carrito {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.carrito h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.lista-carrito {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-carrito li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-carrito img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.lista-carrito div {
+    flex: 1;
+}
+
+.lista-carrito h4 {
+    margin: 0;
+}
+
+.lista-carrito p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.eliminar-item {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.eliminar-item:hover {
+    background-color: #ff1a1a;
+}
+
+.total {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.vaciar-carrito {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+}
+
+.vaciar-carrito:hover {
+    background-color: #ff1a1a;
+}
+
+
 
