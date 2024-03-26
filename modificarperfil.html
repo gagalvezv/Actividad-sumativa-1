@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil - KickStreet</title>
+    <title>Perfil - KickSteet</title>
     <link rel="stylesheet" href="modificarperfilstyle.css">
 </head>
 
@@ -13,21 +13,27 @@
         <h3>Registrate para un 20% de descuento en tu primera compra!</h3>
         <header class="header">
             <nav class="nav">
-                <a href="index.html" class="logo nav-link">KickStreet</a>
+                <a href="#" class="logo nav-link">KickSteet</a>
                 <ul class="nav-menu">
                     <li class="nav-menu-item">
                         <a href="index.html" class="nav-menu-link nav-link">Home</a>
                     </li>
-                </ul>
-                <section class="formulario-cambiar-perfil">
-                    <form action="">
-                        <h3>Cambiar Perfil de Usuario</h3>
-                        <input class="form-box" type="email" name="correo" placeholder="Correo">
-                        <input class="form-box" type="text" name="correo" placeholder="Direccion">
-                        <input class="form-box" type="number" name="correo" placeholder="Telefono">
-                        <input class="form-box" type="password" name="contraseña" placeholder="Contraseña" title="La contraseña debe contener al menos 8 caracteres, incluyendo al menos una letra mayúscula, una letra minúscula, un número y un carácter especial como !@#$%^&*" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}$, Debe ser diferente a las ultimas 3 contraseñas.">  
-                            <input class="boton" type="submit" value="Modificar">    
-                    </form>
-                </section>
+                    <li class="nav-menu-item">
+                        <a href="modificarperfil.html" class="nav-menu-link nav-link">Perfil</a>
+                    </li>
+        </header>
+    </section>
+    <section class="perfil">
+        <form action="">
+            <h3>Modificar Perfil</h3>
+            <input class="form-box" type="text" name="nombres" placeholder="Nombre">
+            <input class="form-box" type="text" name="apellidos" placeholder="Apellido">
+            <input class="form-box" type="text" name="direccion" placeholder="Cambiar dirección de despacho">
+            <input class="form-box" type="text" name="contacto" placeholder="Contacto">
+            <input class="form-box" type="text" name="email" placeholder="Cambiar email">
+            <input class="boton" type="submit" value="Guardar cambios">
+               
+        </form>
+    </section>
 </body>
 </html>
