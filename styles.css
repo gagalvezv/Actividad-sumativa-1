@@ -135,3 +135,30 @@ h2 {
     max-width: 300px;
     margin-bottom: 10vh;
 }
+
+/* css productos en catalogo */
+
+body {
+    font-size: 16px;
+}
+
+.producto {
+    width: 20em; 
+    margin: 3em; 
+    text-align: center; 
+    padding-top: 6em; 
+}
+
+.producto img {
+    width: 100%; 
+    height: auto; 
+}
+
+.producto h3 {
+    margin-top: 0.625em; 
+}
+
+.producto .precio {
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+}
